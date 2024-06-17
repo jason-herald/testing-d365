@@ -35,7 +35,8 @@ const App = () => {
 
   return (
     <div>
-      <h1>{data.message}</h1>
+      <h1>Contacts from D365</h1>
+      {/* <h2>{data.message}</h2> */}
       <ContactList contacts={data.data.value} />
     </div>
   );
